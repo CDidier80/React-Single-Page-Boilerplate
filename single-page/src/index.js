@@ -17,4 +17,5 @@ ReactDOM.render(
 
 
 // initialize the app by entering command     >npm i   or     >npm install
+// use    > npm audit fix    if you receive warnings about vulnerable or deprecated files
 // start the app by entering command     >npm start     in project directory
