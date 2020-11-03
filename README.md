@@ -1,9 +1,11 @@
 # React-Single-Page-Boilerplate
 ### *by Collin Didier* 
-#### Date: 10/17/2020
+#### Date: 11/2/2020
 
 ![default app appearance](default.png)
-This repository is a template for quickly creating/initializing React applications with an organized file structure and common content.
+
+### Repository Description:
+This repository is a template for quickly creating/initializing React applications. It comes with an organized file structure, default common content (including placeholder component files with class and functional versions), and notes on the file hierarchy, flow of props, and setup instructions.
 
 ### Repo file structure and content:
 ![folder and file structure](structure.png)
@@ -22,7 +24,6 @@ This repository is a template for quickly creating/initializing React applicatio
 Node.js 
 Git, for cloning (a standalone package with source code is not yet made)
 A package manager such as npm, yarn, etc.
-
 
 
 ### How to get started: 
