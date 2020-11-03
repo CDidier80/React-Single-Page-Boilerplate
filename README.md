@@ -2,11 +2,11 @@
 ### *by Collin Didier* 
 #### Date: 10/17/2020
 
-![default app appearance](/readme-media/default.png)
+![default app appearance](default.png)
 This repository is a template for quickly creating/initializing React applications with an organized file structure and common content.
 
 ### Repo file structure and content:
-![folder and file structure](readme-media/structure.png)
+![folder and file structure](structure.png)
 
 ### Core Technologies: 
   <div>
