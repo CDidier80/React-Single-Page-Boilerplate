@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './styles/App.css';
+import ComponentOne from 'ComponentOne'
+import ComponentTwo from 'ComponentTwo'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+class App extends Component {
+  constructor(){
+    super()
+    this.state = {
+        key: value
+    }
+  }
+
+  // Optional - set the initial state
+  // componentDidMount (){
+  //   try {
+  //       this.setState((prevState) => ({
+  //          // set initial state
+  //       }))
+  //   } catch (error) {
+  //       console.log(error)
+  //   }
+  // }
+
+  render() {
+    return (
+    <main className="appContentWrapper">
+        <ComponentOne />
+        <ComponentTwo />
+    </main>
+    )}
+  }
+
+  export default App
+
+
+
+
+// Option 2: functional-component version 
+
+// function App() {
+//   return (
+//     <main className="appContentWrapper">
+//         <ComponentOne />
+//         <ComponentTwo />
+//     </main>
+//   )
+// }
+
+// export default App;
